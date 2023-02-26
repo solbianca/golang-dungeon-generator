@@ -9,7 +9,7 @@ import (
 
 func main() {
 	ebiten.SetWindowSize(game.ScreenWidth, game.ScreenHeight)
-	ebiten.SetWindowTitle("Arena")
+	ebiten.SetWindowTitle("Dungeon Generator")
 	ebiten.SetScreenClearedEveryFrame(true)
 
 	loadResources()
